@@ -1,1 +1,3 @@
 # GeoLens
+
+"Welcome to the GitHub repository for my M.Sc. Eagle course projects! Here, you'll find a curated collection of all the fascinating and innovative projects I've undertaken during my master's studies. From groundbreaking research to practical applications, delve into a diverse range of topics and explore the fruits of my academic journey. Join me as I showcase my dedication, passion, and contributions to the field of Earth observation and geoanalysis through these projects. Let's embark on this journey together and explore the exciting realm of spatial analysis and environmental insights!"
