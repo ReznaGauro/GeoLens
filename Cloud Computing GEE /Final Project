@@ -90,7 +90,7 @@ Map.addLayer(lstKtmValley, {
 
 
 /************************************************************************************** 
-This script generates a layer with Five-year summer composite of daytime MODIS Aqua LST 
+The code above generates a layer with Five-year summer composite of daytime MODIS Aqua LST 
 over New York City.Red pixels show higher LST values and blue pixels have lower values.
 
 **************************************************************************************/
@@ -246,7 +246,7 @@ Map.addLayer(landsatComp, {
 Now that we have estimates of LST using various products and algorithms, we can 
 calculate the rural LST and subtract from the urban LST to get the SUHI intensity. 
 In the next part, we create a buffered area around the urban boundary to get the rural 
-reference to calculate the SUHI. 
+reference for calculating the SUHI. 
 
 **************************************************************************************/
 
@@ -332,7 +332,7 @@ Map.addLayer(urbanNonUrban.clip(AOI), {
 
 /************************************************************************************** 
 As SUHI represents the temperature variance between urban and rural areas, we will
-compute summary temperature metrics for the urban perimeter and various rural 
+now compute summary temperature metrics for the urban perimeter and various rural 
 references utilizing Landsat and MODIS LST data.
 
 **************************************************************************************/
