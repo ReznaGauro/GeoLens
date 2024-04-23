@@ -40,7 +40,7 @@ Map.setCenter ( -74.0060, 40.7128, 11);
 Map.addLayer(AOI, {}, 'New York City'); 
 
 // Load MODIS image collection from the Earth Engine data catalog. 
-var ModisLST = ee.ImageCollection("MODIS/061/MOD11A2"); 
+var ModisLST = ee.ImageCollection("MODIS/061/MYD11A2"); 
 print ('MODIS LST', ModisLST);
 
 // Select the band of interest (in this case: Daytime LST).
